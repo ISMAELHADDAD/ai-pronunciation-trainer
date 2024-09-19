@@ -1,0 +1,6 @@
+services:
+  ai-pronunciation-trainer:
+    build: .
+    ports:
+      - 8000:3000
+    restart: unless-stopped
